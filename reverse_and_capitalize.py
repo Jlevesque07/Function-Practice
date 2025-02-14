@@ -3,7 +3,7 @@
 # Define a function that takes a string parameter
 def reverser(word: str) -> str:
     reverse = word[-1::-1]
-    return reverse
+    return reverse.upper()
 # Create an empty string to store the reversed word
 # Loop through each character in the word
 # Add each character to the front of the new string
@@ -11,5 +11,4 @@ def reverser(word: str) -> str:
 # Return the final result
 # Prompt the user for input and call the function
 # Display the transformed word
-backwards = input("Enter a word. ")
-call = reverser(backwards)
+print(reverser(input("Enter a word. ")))
