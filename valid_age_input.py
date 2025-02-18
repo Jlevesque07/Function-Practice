@@ -2,7 +2,8 @@
 
 # Define a function that takes one string parameter
 def age_var(q: str) -> int:
-    # Create a loop that keeps asking for input until a valid age is entered
+    """loop that keeps asking for input until a valid age is entered"""
+    
     while True:
         try:
             # Try to convert the input to an integer

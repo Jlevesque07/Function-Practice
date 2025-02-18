@@ -5,8 +5,8 @@ import random
 
 # Define a function with no parameters that returns a string
 def fetch() -> str:
-    # returns a positive message
-    # Create four different message variables
+    """returns a positive message"""
+    
     message1 = "You are awesome!"
     message2 = "I wish I was as cool as you :0"
     message3 = "You shine bright."
